@@ -1,0 +1,32 @@
+.card {
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: green;
+}
+#about img {
+width: 200px;
+height: 250px;
+object-fit: cover;
+}
